@@ -18,6 +18,10 @@ header{
   justify-content: center;
 }
 
+#menu-btn-check{
+  display: none;
+}
+
 .header-box{
   width: 1024px;
   display: flex;
@@ -33,11 +37,7 @@ header{
   background-position: center;
 }
 
-#menu-btn-check{
-  display: none;
-}
-
-.hm-nav-list{
+.hm{
   display: none;
 }
 
@@ -330,7 +330,7 @@ footer{
   background-position: center;
 }
 
-.hm-nav-list{
+.hm{
   display: block;
 }
 
@@ -383,14 +383,14 @@ footer{
     height: 100%;
     position: fixed;
     top: 0;
-    left: 50%;
+    left: 100%;
     z-index: 80;
     background-color: #EC715F;
     transition: all 0.5s;
 }
 
 #menu-btn-check:checked ~ .menu-content {
-  left: 0;
+  left: 50%;
 }
 
 .menu-content ul {
