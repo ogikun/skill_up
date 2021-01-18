@@ -293,6 +293,11 @@ header{
   margin-right: 20px;
 }
 
+.contact-icon a{
+  text-decoration: none;
+  color:#000000;
+}
+
 .contact-icon i:last-child{
   margin-right: 0px;
 }
@@ -469,8 +474,7 @@ footer{
 .portfolio-items{
   margin: 0 auto;
   width: 100%;
-  display: flex;
-  justify-content: center;
+  display: block;
 }
 
 .portfolio-items-item:nth-child(1){
@@ -481,7 +485,7 @@ footer{
   background-image: url(img/websuku.png);
   background-size: cover;
   background-position: center;
-  margin: 0 0 10px 0;
+  margin: 0 auto 10px auto;
 }
 
 .portfolio-items-item:nth-child(3){
@@ -492,7 +496,7 @@ footer{
   background-image: url(img/webcamp.png);
   background-size: cover;
   background-position: center;
-  margin: 0 0 10px 0;
+  margin: 0 auto 10px auto;
 }
 
 .portfolio-items-item:nth-child(5){
@@ -503,6 +507,7 @@ footer{
   background-image: url(img/webcamp-mother.png);
   background-size: cover;
   background-position: center;
+  margin: 0 auto;
 }
 
 .feature{
@@ -523,12 +528,12 @@ footer{
 
 .feature-items-item{
   width: 320px;
-  margin: 0 0 10px;
+  margin: 0 auto 10px auto;
 }
 
 .feature-items-item:last-child{
   width: 320px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .profile{
